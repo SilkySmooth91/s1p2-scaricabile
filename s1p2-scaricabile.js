@@ -76,6 +76,6 @@ console.log("Il risultato di", x,"-",4, "è", subtraction)
 let name1 = "john"
 let name2 = "John"
 console.log("La variabile name1 è uguale alla variabile name2:",name1 === name2)
-let name2lc = name2.toLowerCase() 
-console.log(name2lc)
-console.log("La variabile name1 è uguale alla variabile name2lc:",name1 === name2lc)
+let minuscolo2 = name2.toLowerCase()
+let minuscolo1 = name1.toLowerCase() 
+console.log("La variabile name1 è uguale alla variabile name2lc:",minuscolo1 === minuscolo2)
